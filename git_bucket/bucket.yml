@@ -1,6 +1,6 @@
 flows:
-  3a1b5dd8-47b5-429d-8cb8-49d10b6ebc0b: {ver: 1, file: first_save.snapshot, comments: first
-      save, author: anonymous, created: 1594715086517, flowName: first save, flowDesc: first
-      save}
+  3a1b5dd8-47b5-429d-8cb8-49d10b6ebc0b: {ver: 2, file: first_save.snapshot, comments: First
+      commit on git regisrty, author: anonymous, created: 1594825578096, flowName: first
+      save, flowDesc: first save}
 layoutVer: 1
 bucketId: 8b7b0685-d3a6-48d9-87df-59ab2d80611a
