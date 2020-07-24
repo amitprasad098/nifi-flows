@@ -15,44 +15,14 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
-            "id" : "dee059ab-6388-3f24-b8f6-185f2b956835",
-            "name" : "ReplaceText",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
-          "identifier" : "dde1c857-345b-30f6-abe9-6aa3fe4a43c4",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
-            "id" : "b85f5bad-e98b-31c7-a6a5-c9ac641797c6",
-            "name" : "GenerateFlowFile",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
+            "groupId" : "bbc527e3-edf7-3c37-a676-a82f1d6b0b90",
             "id" : "bee9d838-c77c-3caa-ba26-58bf36c5a256",
             "name" : "LogAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
-          "identifier" : "c1a9dc4f-776a-337d-b25a-efc437ed182f",
+          "groupIdentifier" : "bbc527e3-edf7-3c37-a676-a82f1d6b0b90",
+          "identifier" : "369be6ba-57a0-350c-914c-559acd5ec632",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -62,23 +32,23 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
-            "id" : "dee059ab-6388-3f24-b8f6-185f2b956835",
-            "name" : "ReplaceText",
+            "groupId" : "bbc527e3-edf7-3c37-a676-a82f1d6b0b90",
+            "id" : "b85f5bad-e98b-31c7-a6a5-c9ac641797c6",
+            "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
         } ],
         "controllerServices" : [ ],
         "funnels" : [ ],
-        "identifier" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
+        "identifier" : "bbc527e3-edf7-3c37-a676-a82f1d6b0b90",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "git testing",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 9960.0,
-          "y" : 1800.0
+          "x" : 10176.0,
+          "y" : 1280.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -93,87 +63,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
-          "identifier" : "dee059ab-6388-3f24-b8f6-185f2b956835",
-          "name" : "ReplaceText",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 576.0,
-            "y" : -320.0
-          },
-          "properties" : {
-            "Regular Expression" : "(?s)(^.*$)",
-            "Replacement Value" : "working",
-            "Evaluation Mode" : "Entire text",
-            "Line-by-Line Evaluation Mode" : "All",
-            "Character Set" : "UTF-8",
-            "Maximum Buffer Size" : "1 MB",
-            "Replacement Strategy" : "Always Replace"
-          },
-          "propertyDescriptors" : {
-            "Regular Expression" : {
-              "displayName" : "Search Value",
-              "identifiesControllerService" : false,
-              "name" : "Regular Expression",
-              "sensitive" : false
-            },
-            "Replacement Value" : {
-              "displayName" : "Replacement Value",
-              "identifiesControllerService" : false,
-              "name" : "Replacement Value",
-              "sensitive" : false
-            },
-            "Evaluation Mode" : {
-              "displayName" : "Evaluation Mode",
-              "identifiesControllerService" : false,
-              "name" : "Evaluation Mode",
-              "sensitive" : false
-            },
-            "Line-by-Line Evaluation Mode" : {
-              "displayName" : "Line-by-Line Evaluation Mode",
-              "identifiesControllerService" : false,
-              "name" : "Line-by-Line Evaluation Mode",
-              "sensitive" : false
-            },
-            "Character Set" : {
-              "displayName" : "Character Set",
-              "identifiesControllerService" : false,
-              "name" : "Character Set",
-              "sensitive" : false
-            },
-            "Maximum Buffer Size" : {
-              "displayName" : "Maximum Buffer Size",
-              "identifiesControllerService" : false,
-              "name" : "Maximum Buffer Size",
-              "sensitive" : false
-            },
-            "Replacement Strategy" : {
-              "displayName" : "Replacement Strategy",
-              "identifiesControllerService" : false,
-              "name" : "Replacement Strategy",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.ReplaceText",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.11.4"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
+          "groupIdentifier" : "bbc527e3-edf7-3c37-a676-a82f1d6b0b90",
           "identifier" : "b85f5bad-e98b-31c7-a6a5-c9ac641797c6",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
@@ -245,7 +135,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "c5032cbb-3e6a-3d69-bcd9-858c7581d2fc",
+          "groupIdentifier" : "bbc527e3-edf7-3c37-a676-a82f1d6b0b90",
           "identifier" : "bee9d838-c77c-3caa-ba26-58bf36c5a256",
           "name" : "LogAttribute",
           "penaltyDuration" : "30 sec",
