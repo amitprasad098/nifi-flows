@@ -1,5 +1,6 @@
 flows:
-  5b5e019e-aa26-4a3a-a286-c3599b0cdd2a: {ver: 1, file: Test1.snapshot, comments: Test1,
-    author: anonymous, created: 1595583778666, flowName: Test1, flowDesc: Test1}
+  5b5e019e-aa26-4a3a-a286-c3599b0cdd2a: {ver: 2, file: Test1.snapshot, comments: Local
+      Changes of test data committed, author: anonymous, created: 1595583856517, flowName: Test1,
+    flowDesc: Test1}
 layoutVer: 1
 bucketId: a079ed31-2fdc-4e6c-a017-5471e155876f
