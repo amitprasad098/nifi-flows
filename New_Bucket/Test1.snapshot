@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "badfe0d0-3a69-3349-bdb8-1326b5e27aaf",
+            "groupId" : "4f80aef2-2b6c-3354-ad62-b6cf0ec415d3",
             "id" : "81611078-3a25-3f4a-b80c-df1646c0b637",
             "name" : "LogAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "badfe0d0-3a69-3349-bdb8-1326b5e27aaf",
+          "groupIdentifier" : "4f80aef2-2b6c-3354-ad62-b6cf0ec415d3",
           "identifier" : "4c2c79dc-c137-394e-80af-b6618c49dbd0",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "badfe0d0-3a69-3349-bdb8-1326b5e27aaf",
+            "groupId" : "4f80aef2-2b6c-3354-ad62-b6cf0ec415d3",
             "id" : "880d5f5f-e261-3ed7-b2d6-fa81b02c59b3",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
@@ -41,14 +41,14 @@
         } ],
         "controllerServices" : [ ],
         "funnels" : [ ],
-        "identifier" : "badfe0d0-3a69-3349-bdb8-1326b5e27aaf",
+        "identifier" : "4f80aef2-2b6c-3354-ad62-b6cf0ec415d3",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "test1",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 10344.0,
-          "y" : 1288.0
+          "x" : 9816.0,
+          "y" : 1272.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -63,13 +63,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "badfe0d0-3a69-3349-bdb8-1326b5e27aaf",
+          "groupIdentifier" : "4f80aef2-2b6c-3354-ad62-b6cf0ec415d3",
           "identifier" : "81611078-3a25-3f4a-b80c-df1646c0b637",
           "name" : "LogAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 10344.0,
-            "y" : 1544.0
+            "x" : 10496.0,
+            "y" : 1576.0
           },
           "properties" : {
             "character-set" : "UTF-8",
@@ -146,13 +146,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "badfe0d0-3a69-3349-bdb8-1326b5e27aaf",
+          "groupIdentifier" : "4f80aef2-2b6c-3354-ad62-b6cf0ec415d3",
           "identifier" : "880d5f5f-e261-3ed7-b2d6-fa81b02c59b3",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 10344.0,
-            "y" : 1304.0
+            "x" : 10528.0,
+            "y" : 1320.0
           },
           "properties" : {
             "character-set" : "UTF-8",
