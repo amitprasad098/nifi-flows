@@ -1,13 +1,7 @@
 flows:
-  01994bd8-6beb-4bfd-b27a-4db28467e4c4:
-    ver: 2
-    file: First_flow.snapshot
-    comments: |
-      locally committed
-    author: anonymous
-    created: 1595571934341
-    flowName: First flow
-    flowDesc: First flow
+  01994bd8-6beb-4bfd-b27a-4db28467e4c4: {ver: 3, file: First_flow.snapshot, comments: 2nd
+      local commit, author: anonymous, created: 1595572044188, flowName: First flow,
+    flowDesc: First flow}
   3a1b5dd8-47b5-429d-8cb8-49d10b6ebc0b: {ver: 2, file: first_save.snapshot, comments: First
       commit on git regisrty, author: anonymous, created: 1594825578096, flowName: first
       save, flowDesc: first save}
